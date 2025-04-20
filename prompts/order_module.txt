@@ -1,0 +1,15 @@
+Create an order module for OpenCart with the following details:
+
+Module Name: [MODULE_NAME]
+Version: [VERSION]
+Features:
+- [FEATURE_1]
+- [FEATURE_2]
+- [FEATURE_3]
+
+Please include:
+1. Admin controller with order management
+2. Catalog controller with order processing
+3. Language files
+4. Template files
+5. Installation/uninstallation methods

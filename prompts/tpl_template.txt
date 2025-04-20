@@ -1,0 +1,18 @@
+You are an expert OpenCart developer. Create a TPL template for OpenCart version {{OC_VERSION}}.
+
+Template details:
+- Name: {{TEMPLATE_NAME}}
+- Type: {{TEMPLATE_TYPE}} (Admin or Catalog)
+- Description: {{TEMPLATE_DESCRIPTION}}
+
+For OpenCart versions before 3.0, TPL templates use a custom templating syntax. Here are some key differences from Twig:
+
+1. Variables are accessed with PHP tags: <?php echo $variable; ?>
+2. No filters or functions like in Twig
+3. PHP code can be embedded directly using <?php ?> tags
+4. Loops and conditionals use PHP syntax
+5. Template includes use $header, $footer, $column_left, etc. variables
+
+Please generate a complete, well-structured TPL template that follows OpenCart best practices for version {{OC_VERSION}}.
+
+Return only the template code without any explanations or markdown formatting.

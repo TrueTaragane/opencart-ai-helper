@@ -1,0 +1,22 @@
+{
+    "OpenCart OCMod": {
+        "prefix": "ococmod",
+        "body": [
+            "<?xml version=\"1.0\" encoding=\"utf-8\"?>",
+            "<modification>",
+            "    <name>${1:My Modification}</name>",
+            "    <code>${2:my_modification}</code>",
+            "    <version>${3:1.0.0}</version>",
+            "    <author>${4:Your Name}</author>",
+            "    <link>${5:https://example.com}</link>",
+            "    <file path=\"${6:catalog/controller/common/header.php}\">",
+            "        <operation>",
+            "            <search><![CDATA[${7:// Search text}]]></search>",
+            "            <add position=\"${8:after}\"><![CDATA[${9:// Added text}]]></add>",
+            "        </operation>",
+            "    </file>",
+            "</modification>"
+        ],
+        "description": "OpenCart OCMod Template"
+    }
+}

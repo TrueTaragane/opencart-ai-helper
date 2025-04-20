@@ -1,0 +1,15 @@
+Create a shipping module for OpenCart with the following details:
+
+Shipping Method: [SHIPPING_METHOD]
+Version: [VERSION]
+Features:
+- [FEATURE_1]
+- [FEATURE_2]
+- [FEATURE_3]
+
+Please include:
+1. Admin controller with settings
+2. Catalog controller with shipping calculation
+3. Language files
+4. Template files
+5. Installation/uninstallation methods
